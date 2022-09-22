@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">24PointsGame</string>
+    <string name="clear_bnt">清空</string>
+    <string name="compute_bnt">计算24点</string>
+</resources>
