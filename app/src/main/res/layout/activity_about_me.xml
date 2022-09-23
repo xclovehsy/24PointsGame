@@ -8,9 +8,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_name"
+        android:text="@string/about_me"
         android:layout_gravity="center_horizontal"
         android:textSize="40sp"
+        android:layout_marginTop="100sp"
+        android:textColor="@color/black"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me_mes"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
         android:layout_marginTop="100sp"
         android:textColor="@color/black"
         >
@@ -19,32 +30,14 @@
         android:layout_marginTop="50sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/play"
+        android:text="@string/back"
         android:textSize="25sp"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/play">
+        android:id="@+id/about_back">
 
     </Button>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/guide"
-        android:textSize="25sp"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/guide">
 
-    </Button>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/about_me"
-        android:textSize="25sp"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/about">
-
-    </Button>
 
 
 </LinearLayout>

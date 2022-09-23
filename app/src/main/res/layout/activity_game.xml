@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <ImageButton
+        android:id="@+id/cluba"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cluba"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/club2"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="25dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club2" />
+
+    <ImageButton
+        android:id="@+id/club3"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="50dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club3" />
+
+    <ImageButton
+        android:id="@+id/club4"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="75dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club4" />
+
+    <ImageButton
+        android:id="@+id/club5"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="100dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club5" />
+
+    <ImageButton
+        android:id="@+id/club6"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="125dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club6" />
+
+    <ImageButton
+        android:id="@+id/club7"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="150dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club7" />
+
+    <ImageButton
+        android:id="@+id/club8"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="175dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club8" />
+
+    <ImageButton
+        android:id="@+id/club9"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="200dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club9" />
+
+    <ImageButton
+        android:id="@+id/club10"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="225dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/club10" />
+
+    <ImageButton
+        android:id="@+id/clubj"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="250dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clubj" />
+
+    <ImageButton
+        android:id="@+id/clubq"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="275dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clubq" />
+
+    <ImageButton
+        android:id="@+id/clubk"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="300dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clubk" />
+
+    <ImageButton
+        android:id="@+id/card1"
+        android:layout_width="70sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/question"
+        android:onClick="insertCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/card2"
+        android:layout_width="70sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/question"
+        android:onClick="insertCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/card3"
+        android:layout_width="70sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/question"
+        android:onClick="insertCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/card4"
+        android:layout_width="70sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/question"
+        android:onClick="insertCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/diamonda"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamonda" />
+
+    <ImageButton
+        android:id="@+id/diamond2"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="25dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond2" />
+
+    <ImageButton
+        android:id="@+id/diamond3"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="50dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond3" />
+
+    <ImageButton
+        android:id="@+id/diamond4"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="75dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond4" />
+
+    <ImageButton
+        android:id="@+id/diamond5"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="100dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond5" />
+
+    <ImageButton
+        android:id="@+id/diamond6"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="125dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond6" />
+
+    <ImageButton
+        android:id="@+id/diamond7"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="150dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond7" />
+
+    <ImageButton
+        android:id="@+id/diamond8"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="175dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond8" />
+
+    <ImageButton
+        android:id="@+id/diamond9"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="200dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond9" />
+
+    <ImageButton
+        android:id="@+id/diamond10"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="225dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamond10" />
+
+    <ImageButton
+        android:id="@+id/diamondj"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="250dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamondj" />
+
+    <ImageButton
+        android:id="@+id/diamondq"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="275dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamondq" />
+
+    <ImageButton
+        android:id="@+id/diamondk"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="300dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diamondk" />
+
+    <ImageButton
+        android:id="@+id/hearta"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hearta" />
+
+    <ImageButton
+        android:id="@+id/heart2"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="25dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart2" />
+
+    <ImageButton
+        android:id="@+id/heart3"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="50dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart3" />
+
+    <ImageButton
+        android:id="@+id/heart4"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="75dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart4" />
+
+    <ImageButton
+        android:id="@+id/heart5"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="100dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart5" />
+
+    <ImageButton
+        android:id="@+id/heart6"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="125dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart6" />
+
+    <ImageButton
+        android:id="@+id/heart7"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="150dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart7" />
+
+    <ImageButton
+        android:id="@+id/heart8"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="175dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart8" />
+
+    <ImageButton
+        android:id="@+id/heart9"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="200dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart9" />
+
+    <ImageButton
+        android:id="@+id/heart10"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="225dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart10" />
+
+    <ImageButton
+        android:id="@+id/heartj"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="250dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heartj" />
+
+    <ImageButton
+        android:id="@+id/heartq"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="275dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heartq" />
+
+    <ImageButton
+        android:id="@+id/heartk"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="300dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heartk" />
+
+    <ImageButton
+        android:id="@+id/spadea"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spadea" />
+
+    <ImageButton
+        android:id="@+id/spade2"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="25dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade2" />
+
+    <ImageButton
+        android:id="@+id/spade3"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="50dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade3" />
+
+    <ImageButton
+        android:id="@+id/spade4"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="75dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade4" />
+
+    <ImageButton
+        android:id="@+id/spade5"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="100dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade5" />
+
+    <ImageButton
+        android:id="@+id/spade6"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="125dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade6" />
+
+    <ImageButton
+        android:id="@+id/spade7"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="150dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade7" />
+
+    <ImageButton
+        android:id="@+id/spade8"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="175dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade8" />
+
+    <ImageButton
+        android:id="@+id/spade9"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="200dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade9" />
+
+    <ImageButton
+        android:id="@+id/spade10"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="225dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spade10" />
+
+    <ImageButton
+        android:id="@+id/spadej"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="250dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spadej" />
+
+    <ImageButton
+        android:id="@+id/spadeq"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="275dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spadeq" />
+
+    <ImageButton
+        android:id="@+id/spadek"
+        android:layout_width="80sp"
+        android:layout_height="110sp"
+        android:layout_marginTop="300dp"
+        android:onClick="chooseCard"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spadek" />
+
+    <Button
+        android:id="@+id/getpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="524dp"
+        android:onClick="getTips"
+        android:text="GET 24POINT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="524dp"
+        android:onClick="backCards"
+        android:text="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="524dp"
+        android:onClick="clearCards"
+        android:text="CLEAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
