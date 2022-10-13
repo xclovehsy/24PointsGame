@@ -7,7 +7,7 @@
     <string name="about_me">about me</string>
     <string name="about_me_mes">author：徐聪\nvision:1.0</string>
     <string name="back">back</string>
-    <string name="guide_mes">已知一副扑克牌有54张，去除大王和小王，剩余52张。在其中抽取4张牌，利用加减乘除进行计算得到24。编写程序生成一副扑克牌，抽取4张，进行计算是否能得到24. 如果可以，列出可能的计算表达式，可能有多种计算形式。</string>
+    <string name="guide_mes">\t\t\t已知一副扑克牌有54张，去除大王和小王，剩余52张。\n\t\t\t游戏玩家在其中抽取4张牌，利用加减乘除进行计算得到24。\n\t\t\t进行计算是否能得到24. 如果可以，列出可能的计算表达式，可能有多种计算形式。</string>
     <string name="game_set">游戏设置</string>
     <string name="choose_image">选择图片</string>
     <string name="choose_dif">选择难度</string>

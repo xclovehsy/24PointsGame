@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ComputerCode/Android/24PointsGame/app/src/main/res/layout/activity_about_me.xml" value="0.22826086956521738" />
+        <entry key="..\:/ComputerCode/Android/24PointsGame/app/src/main/res/layout/activity_game.xml" value="0.22826086956521738" />
+        <entry key="..\:/ComputerCode/Android/24PointsGame/app/src/main/res/layout/activity_guide.xml" value="0.25364583333333335" />
+        <entry key="..\:/ComputerCode/Android/24PointsGame/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/ComputerCode/AndroidProject/24PointsGame/app/src/main/res/drawable/ic_launcher_background.xml" value="0.259" />
         <entry key="..\:/ComputerCode/AndroidProject/24PointsGame/app/src/main/res/layout/activity_about_me.xml" value="0.22826086956521738" />
         <entry key="..\:/ComputerCode/AndroidProject/24PointsGame/app/src/main/res/layout/activity_game.xml" value="0.22826086956521738" />

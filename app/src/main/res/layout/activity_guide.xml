@@ -2,22 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="@drawable/bk1"
     android:orientation="vertical"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/guide"
-        android:layout_gravity="center_horizontal"
-        android:textSize="40sp"
-        android:layout_marginTop="80sp"
-        android:textColor="@color/black"
-        >
-    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/guide"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop" />
 
     <TextView
-        android:layout_marginTop="20sp"
         android:layout_width="350sp"
         android:layout_height="wrap_content"
         android:text="@string/guide_mes"
